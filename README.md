@@ -16,6 +16,7 @@ Tu programa debe ser capaz de _cifrar y descifrar_ tanto letras _mayúsculas_ co
 * El usuario no debe poder ingresar un campo vacío o que contenga números
 ````
 ## Pseudocódigo
+
 1. Definir variables globales e inicializarlas, así como definir el arreglo para el alfabeto, desde A hasta Z:
   * __message = ""__
   * __verifyString = true__
@@ -34,6 +35,7 @@ Tu programa debe ser capaz de _cifrar y descifrar_ tanto letras _mayúsculas_ co
 8. Si elige la opción 1: cifrar, llama a la función _cipher()_ y con un _prompt()_ solicita que se ingrese el mensaje, el cual será convertido a mayúsculas y será mostrado.
 9. Si no, si elige la opción 2: descifrar, llama a la función _decipher()_ y con un _prompt()_ solicita que se ingrese el mensaje, el cual será convertido a mayúsculas y será mostrado.
 10. Si no elige alguna de esas dos opciones, se mostrará un mensaje de error.
+11. FIN
 
 
 ## Imagen
