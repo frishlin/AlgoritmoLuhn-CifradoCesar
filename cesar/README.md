@@ -26,15 +26,15 @@ Tu programa debe ser capaz de _cifrar y descifrar_ tanto letras _mayúsculas_ co
   1. Si __message__ está dentro del rango de código ascii permitido, entonces:
     * __concat__ caracter por caracter hasta formar el mensaje cifrado, con la fórmula (x - 65 + n) % 26 + 65.
   2. Si no, __verifyString__ == _false_ y romper el ciclo con un _break_
-4. Si __verifyString__ es true, entonces:
+4. Si __verifyString__ es _true_, entonces:
   1. Imprimir el mostrar el mensaje codificado
 5. Si no, que imprima un mensaje de error
 6. Hacer los mismos pasos para la función __decipher__, pero con la fórmula (x + 65 - n) % 26 + 65
 7. Definir la variable __option__ para que el usuario elija si desea cifrar o descifrar el mensaje
-8. Si elige la opción 1: cifrar, llama a la función _cipher()_ y con un _prompt()_ solicita que se ingrese el mensaje, el cual será convertido a mayúsculas y será mostrado.
-9. Si no, si elige la opción 2: descifrar, llama a la función _decipher()_ y con un _prompt()_ solicita que se ingrese el mensaje, el cual será convertido a mayúsculas y será mostrado.
+8. Si (option==='1'): cifrar, llama a la función _cipher()_ y con un _prompt()_ solicita que se ingrese el mensaje, el cual será convertido a mayúsculas y será mostrado.
+9. Si no, si (option==='2'): descifrar, llama a la función _decipher()_ y con un _prompt()_ solicita que se ingreses el mensaje, el cual será convertido a mayúsculas y será mostrado.
 10. Si no elige alguna de esas dos opciones, se mostrará un mensaje de error.
-
+11. FIN.
 
 ## Imagen
 

@@ -7,6 +7,8 @@ Tu código debe estar compuesto por 1 función: isValidCard
 El usuario no debe poder ingresar un campo vacío
 */
 
+/*Variables globales y definición de un arreglo vacío que aceptará el número de
+tarjeta por parte del usuario*/
 var cardNumber = prompt("Número de tarjeta:");
 var sum=0;
 var arrayCardNumber=[];

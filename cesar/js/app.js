@@ -11,9 +11,9 @@ Tu código debe estar compuesto por 2 funciones con los siguientes nombres: ciph
 El usuario no debe poder ingresar un campo vacío o que contenga números*/
 
 //Variables globales
-var veriftyString=true;
+var veriftyString=true; //variable para verificar que los datos ingresados son cadena
 var alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-var codMessage="";
+var codMessage=""; //variable en la que se almacenará el nuevo mensaje ya codificado
 
 //Función de cifrado
 var cipher = function(message, displace){
@@ -21,12 +21,14 @@ var cipher = function(message, displace){
     for(var i=0; i<message.length;i++){
       //Si el mensaje está dentro del alfabeto según su código ascii
       if(message.charCodeAt(i)>64 && message.charCodeAt(i)<91){
-        //Se cifra el mensaje según la formula de cifrado César
-        codMessage=codMessage.concat(String.fromCharCode((message.charCodeAt(i)-65+displace)%26+65));
+        /*Se cifra el mensaje según la formula de cifrado César y se concatena caracter por caracter
+        hasta formar una cadena con el nuevo mensaje ya cifrado*/        
+        codMessage=codMessage.concat(String.fromCharCode((message.charCodeAt(i) - 65 + displace) % 26 + 65));
+
       }
         //Si algún caracter no está dentro del alfabeto ascii se interrumpe el proceso y sale del ciclo for
       else {
-        veriftyString=false;
+        veriftyString = false;
         break;
       }
     }
