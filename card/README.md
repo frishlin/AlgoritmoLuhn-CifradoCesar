@@ -2,7 +2,7 @@
 # __TARJETA DE CRÉDITO VÁLIDA__
 Crea una web que pida, por medio de un _prompt()_, el número de una tarjeta de crédito y confirme su validez según el algoritmo de Luhn.
 ````
-__ Consideraciones Específicas __
+__Consideraciones Específicas__
 * Tu código debe estar compuesto por 1 función: __isValidCard__
 * El usuario no debe poder ingresar un campo vacío
 ````

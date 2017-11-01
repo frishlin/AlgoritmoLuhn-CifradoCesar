@@ -1,4 +1,3 @@
-//#Nombre Ejercicio
 # __CIFRADO CÉSAR__
 Crea una web que pida, por medio de un _prompt()_, una frase al usuario y devuelva el mismo mensaje encriptado según el algoritmo de Cifrado César con el parámetro de desplazamiento de 33 espacios hacia la derecha.
 
@@ -8,7 +7,7 @@ Texto original: __ABCDEFGHIJKLMNOPQRSTUVWXYZ__
 
 Texto codificado: __HIJKLMNOPQRSTUVWXYZABCDEFG__
 
-__ Consideraciones Específicas __
+__Consideraciones Específicas__
 
 Tu programa debe ser capaz de _cifrar y descifrar_ tanto letras _mayúsculas_ como _minúsculas_. La fórmula para descifrar es: __(x - n) % 26__
 ````
