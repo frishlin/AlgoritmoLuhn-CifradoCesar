@@ -22,7 +22,7 @@ var cipher = function(message, displace){
       //Si el mensaje está dentro del alfabeto según su código ascii
       if(message.charCodeAt(i)>64 && message.charCodeAt(i)<91){
         /*Se cifra el mensaje según la formula de cifrado César y se concatena caracter por caracter
-        hasta formar una cadena con el nuevo mensaje ya cifrado*/        
+        hasta formar una cadena con el nuevo mensaje ya cifrado*/
         codMessage=codMessage.concat(String.fromCharCode((message.charCodeAt(i) - 65 + displace) % 26 + 65));
 
       }
@@ -38,7 +38,7 @@ var cipher = function(message, displace){
     }
     //Si se encuentra un caracter inválido, muestra un mensaje de error
     else{
-      document.write("datos no válidos");
+      document.write("Datos no válidos");
     }
 }
 //Función de descifrado
@@ -76,5 +76,5 @@ else if(option==="2"){
 }
 //Si el usuario escribe algún dato que no sea 1 o 2, se mostrará un mensaje de error
 else{
-  console.log("ingresa una opción válida");
+  document.write("Tecleaste una opción inválida");
 }
