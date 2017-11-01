@@ -1,11 +1,10 @@
-//#Nombre Ejercicio
 # __TARJETA DE CRÉDITO VÁLIDA__
 Crea una web que pida, por medio de un _prompt()_, el número de una tarjeta de crédito y confirme su validez según el algoritmo de Luhn.
-````
+
 __Consideraciones Específicas__
 * Tu código debe estar compuesto por 1 función: __isValidCard__
 * El usuario no debe poder ingresar un campo vacío
-````
+
 
 ## Pseudocódigo
 
@@ -25,15 +24,16 @@ __Consideraciones Específicas__
         arrayCardNumber[i]=16-2-1 = 13 (antepenúltimo elemento del array: 2)...
         así sucesivamente hasta:
         arrayCardNumber[i]=16-15-1 = 0 (3 primer elemento del array)
-    2.  Si (i%2!=0) es diferente de 0, (si está en una posición par), multiplicar arrayCardNumber[i]= arrayCardNumber[i] * 2; cada elementos correspondiente
+    2.  Si _(i % 2 !== 0)_ es diferente de 0, (si está en una posición par), multiplicar _arrayCardNumber[i]= arrayCardNumber[i] * 2_; cada elementos correspondiente
       1. Si el producto resultante es mayor o igual a 10, divide el elemento/10 para obtener el cociente y el módulo del mismo de 10, para obtener el residuo
       Ejemplo:
-      9 * 2 = 18
-      18 / 10 = 1
-      18 % 10 = 8
+
+        9 * 2 = 18
+        18 / 10 = 1
+        18 % 10 = 8
       2. Se acumula la suma de todos los elementos (resultado de los productos pares y los elementos impares)
-      sum=sum+arrayCardNumber[i];
-4. Si (sum%10) es distinto de 0,
+      _sum=sum+arrayCardNumber[i]_;
+4. Si _(sum % 10)_ es distinto de _0_,
     1. Mostrar el mensaje "Número de tarjeta inválido"
 5. Si no, si el resultado del módulo es igual a 0
     1. Mostrar el mensaje: "Tarjeta válida;

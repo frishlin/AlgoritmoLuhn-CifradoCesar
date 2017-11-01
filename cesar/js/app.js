@@ -67,11 +67,11 @@ var decipher = function(message, displace){
 //Opción que tendrá que escribir el usuario para cifrar o descifrar un mensaje
 var option = prompt("Escribe 1 para CIFRAR o 2 para DESCIFRAR").toLowerCase();
 //Si el usuarui escribe 1, deberá escribir un mensaje para cifrarlo con el código césar
-if(option==="1"){
+if(option === "1"){
   cipher(prompt("Escribe un mensaje para CIFRAR:").toUpperCase(),33);
 }
 //Si el usuario escribe 2, deberá escribir un mesnaje cifrado para conocer su significado
-else if(option==="2"){
+else if(option === "2"){
   decipher(prompt("Escribe un mensaje CIFRADO:").toUpperCase(),33);
 }
 //Si el usuario escribe algún dato que no sea 1 o 2, se mostrará un mensaje de error
