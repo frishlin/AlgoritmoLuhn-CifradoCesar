@@ -39,6 +39,6 @@ __Consideraciones Específicas__
     1. Mostrar el mensaje: "Tarjeta válida;
 6. FIN
 
-## Imagen
+## Diagrama de flujo
 
 ![Diagrama](https://github.com/frishlin/final-project-test/blob/master/card/assets/images/diagrama-de-flujo.png?raw=true)

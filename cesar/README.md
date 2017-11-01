@@ -35,6 +35,6 @@ Tu programa debe ser capaz de _cifrar y descifrar_ tanto letras _mayúsculas_ co
 10. Si no elige alguna de esas dos opciones, se mostrará un mensaje de error.
 11. FIN.
 
-## Imagen
+## Diagrama de flujo
 
 ![Diagrama](https://github.com/frishlin/final-project-test/blob/master/cesar/assets/images/diagrama-de-flujo.png?raw=true)
