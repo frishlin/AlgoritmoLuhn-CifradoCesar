@@ -41,4 +41,4 @@ __ Consideraciones Específicas __
 
 ## Imagen
 
-![Diagrama](https://github.com/frishlin/final-project-test/blob/master/card/assets/images/diagrama.jpeg?raw=true)
+![Diagrama](https://github.com/frishlin/final-project-test/blob/master/card/assets/images/diagrama-de-flujo.png?raw=true)

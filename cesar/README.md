@@ -38,4 +38,4 @@ Tu programa debe ser capaz de _cifrar y descifrar_ tanto letras _mayúsculas_ co
 
 ## Imagen
 
-![Diagrama](C:/laboratoria/sprint1/final-project-test/assets/images/diagrama.jpg)
+![Diagrama](https://github.com/frishlin/final-project-test/blob/master/cesar/assets/images/diagrama-de-flujo.png?raw=true)
